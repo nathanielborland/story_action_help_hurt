@@ -1,41 +1,8 @@
 {
-  "metadata": {
-    "title": "FMA-B: The Fifth Laboratory",
-    "text": "At the fifth laboratory, Alphonse fights Barry the Chopper outside, and Edward faces Slicer inside. It is revealed that both opponents are souls of killers affixed to armor. Edward struggles in his battle when his automail arm malfunctions. Alphonse initially has the advantage in his fight, until Barry suggests that Alphonse never truly existed, claiming he was a doll made by Edward with false memories, causing Alphonse to contemplate the possibility. Edward is particularly troubled when his opponent turns out to be a pair of brothers, each controlling a different part of the armor. Edward manages to defeat Slicer by use of Scar's destruction technique, but before he can extract any information from the two brothers, they are killed by Lust and Envy. Edward demands to know who they are and tries to use alchemy, but his automail arm breaks and he is knocked out by Envy. Outside, Barry almost gains the upper hand over Alphonse, but Alphonse is saved by the arrival of Brosh and Ross. Lust and Envy destroy the lab to cover up the evidence of the philosopher's stone, but not before carrying Edward outside and handing him over to Brosh and Ross, commenting that he is a valuable resource.",
-    "ratedCharacters": [
-      "Alphonse Elric",
-      "Barry",
-      "Edward Elric",
-      "Lust",
-      "Envy",
-      "Denny Brosh"
-    ],
-    "annotator": "Trevor Webster"
-  },
   "actions": [
     {
-      "description": "Alphonse fights Barry the Chopper outside",
-      "action": "fight outside",
-      "agents": [
-        {
-          "name": "Alphonse Elric",
-          "benefit": 1.0
-        },
-        {
-          "name": "Barry",
-          "benefit": -1.0
-        }
-      ],
-      "othersAffected": [
-        {
-          "name": "Alphonse Elric",
-          "benefit": 1.0
-        }
-      ]
-    },
-    {
-      "description": "Edward faces Slicer",
-      "action": "fight inside",
+      "action": "engage in exchange",
+      "description": "Edward engages Slicer in an exchange of fighting and conversation about the laboratory and the Philosopher's Stone",
       "agents": [
         {
           "name": "Edward Elric",
@@ -45,33 +12,104 @@
       "othersAffected": [
         {
           "name": "Slicer",
-          "benefit": -0.8
+          "benefit": 0.5
         }
       ]
     },
     {
-      "description": "use of Scar's destruction technique",
-      "action": "use destruction technique",
+      "action": "go find brothers",
+      "description": "Ross and Brosh realize Edward and Alphonse went to the laboratory and go after them",
+      "agents": [
+        {
+          "name": "Denny Brosh",
+          "benefit": 0.5
+        },
+        {
+          "name": "Ross",
+          "benefit": 0.5
+        }
+      ],
+      "othersAffected": []
+    },
+    {
+      "action": "display weakness",
+      "description": "Edward deliberately displays weakness in the fight, drawing out information about Alphonse's opponent",
       "agents": [
         {
           "name": "Edward Elric",
-          "benefit": 0.5
+          "benefit": 1.0
         }
       ],
       "othersAffected": [
         {
           "name": "Slicer",
-          "benefit": -0.8
+          "benefit": -1.0
         }
       ]
     },
     {
-      "description": "Edward demands to know Sins but knocked out and spared",
-      "action": "get knocked out",
+      "action": "turn fight philosophical",
+      "description": "Alphonse's fight with Barry turns into a philosophical exchange when Barry reveals his hollow body is like Alphonse's",
+      "agents": [
+        {
+          "name": "Alphonse Elric",
+          "benefit": -1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Barry",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "near defeat",
+      "description": "Edward brings Slicer near defeat but is then pushed close to defeat himself",
       "agents": [
         {
           "name": "Edward Elric",
-          "benefit": -0.5
+          "benefit": -0.9
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Slicer",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "action": "pass the killing",
+      "description": "Slicer asks Edward to kill him, Edward's refusal prompts more revelation, and Lust and Envy execute Slicer anyway",
+      "agents": [
+        {
+          "name": "Edward Elric",
+          "benefit": -1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Slicer",
+          "benefit": 1.0
+        },
+        {
+          "name": "Lust",
+          "benefit": 1.0
+        },
+        {
+          "name": "Envy",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "spare hero",
+      "description": "Edward confronts Lust and Envy, gets knocked out, and is spared",
+      "agents": [
+        {
+          "name": "Edward Elric",
+          "benefit": -1.0
         }
       ],
       "othersAffected": [
@@ -86,35 +124,68 @@
       ]
     },
     {
-      "description": "Alphonse is saved by the arrival of Brosh and Ross",
-      "action": "saved before defeat",
+      "action": "counterattack through distraction",
+      "description": "Alphonse is distracted by doubts about his realness, Barry counterattacks, and Ross and Brosh stop Barry",
       "agents": [
         {
-          "name": "Denny Brosh",
-          "benefit": 0.5
-        },
-        {
-          "name": "Ross",
-          "benefit": 0.5
+          "name": "Alphonse Elric",
+          "benefit": -1.0
         }
       ],
       "othersAffected": [
         {
-          "name": "Alphonse Elric",
+          "name": "Barry",
+          "benefit": -1.0
+        },
+        {
+          "name": "Denny Brosh",
+          "benefit": 1.0
+        },
+        {
+          "name": "Ross",
           "benefit": 1.0
         }
       ]
     },
     {
-      "description": "",
-      "action": "",
+      "action": "care for hero",
+      "description": "Envy brings Edward outside where the others can care for him",
       "agents": [
         {
-          "name": "",
-          "benefit": ""
+          "name": "Envy",
+          "benefit": -1.0
         }
       ],
-      "othersAffected": []
+      "othersAffected": [
+        {
+          "name": "Edward Elric",
+          "benefit": 1.0
+        },
+        {
+          "name": "Alphonse Elric",
+          "benefit": 0.1
+        },
+        {
+          "name": "Ross",
+          "benefit": 0.1
+        }
+      ]
+    },
+    {
+      "action": "consider promotion",
+      "description": "Mustang is considered for promotion, which would reunite him with Hughes",
+      "agents": [
+        {
+          "name": "Roy Mustang",
+          "benefit": 0.5
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Maes Hughes",
+          "benefit": 1.0
+        }
+      ]
     }
   ]
 }
