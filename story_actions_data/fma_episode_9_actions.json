@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "Fullmetal Alchemist: Brotherhood - Episode 9",
+    "text": "Edward is forced into bed rest after the Fifth Laboratory incident while his damaged automail brings Winry to Central. As Winry reconnects with the brothers and the Hughes family, Alphonse's growing doubts about the truth of his own existence erupt into a painful conflict with Edward and Winry. Elsewhere, Scar regains consciousness after being rescued and cared for by strangers, setting up his return to the story.",
+    "ratedCharacters": [
+      "Edward Elric",
+      "Alphonse Elric",
+      "Winry Rockbell",
+      "Ross",
+      "Denny Brosh",
+      "Maes Hughes",
+      "Elicia Hughes",
+      "Scar"
+    ],
+    "annotator": "Trevor Webster"
+  },
+  "actions": [
+    {
+      "action": "confine to bed rest",
+      "description": "Ross keeps Edward in bed while he recovers, and Edward resents being forcibly cared for.",
+      "agents": [
+        {
+          "name": "Ross",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Edward Elric",
+          "benefit": -1.0
+        },
+        {
+          "name": "Denny Brosh",
+          "benefit": 0.5
+        }
+      ]
+    },
+    {
+      "action": "call for repair",
+      "description": "Edward asks for help with his damaged automail, bringing Winry to Central.",
+      "agents": [
+        {
+          "name": "Edward Elric",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Winry Rockbell",
+          "benefit": 0.5
+        }
+      ]
+    },
+    {
+      "action": "accept blame",
+      "description": "When Winry apologizes for Edward's damaged automail, Edward insists the damage was caused by his own recklessness.",
+      "agents": [
+        {
+          "name": "Edward Elric",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Winry Rockbell",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "offer shelter",
+      "description": "Maes Hughes insists that Winry stay with his family while she works in Central.",
+      "agents": [
+        {
+          "name": "Maes Hughes",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Winry Rockbell",
+          "benefit": 1.0
+        },
+        {
+          "name": "Edward Elric",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "bond with family",
+      "description": "Winry bonds with Elicia at her birthday celebration and talks with Hughes about her history with Edward and Alphonse.",
+      "agents": [
+        {
+          "name": "Winry Rockbell",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Maes Hughes",
+          "benefit": 1.0
+        },
+        {
+          "name": "Elicia Hughes",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "demand truth",
+      "description": "Alphonse confronts Edward over the truth of his body and whether his memories and existence were fabricated.",
+      "agents": [
+        {
+          "name": "Alphonse Elric",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Edward Elric",
+          "benefit": -1.0
+        },
+        {
+          "name": "Winry Rockbell",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "action": "force reconciliation",
+      "description": "Winry physically intervenes and pushes Alphonse and Edward toward apologizing and understanding each other again.",
+      "agents": [
+        {
+          "name": "Winry Rockbell",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Alphonse Elric",
+          "benefit": 1.0
+        },
+        {
+          "name": "Edward Elric",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "action": "recover in hiding",
+      "description": "Scar wakes from dreams of his past and recovers after being found and cared for by strangers.",
+      "agents": [
+        {
+          "name": "Scar",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "old man",
+          "benefit": 0.5
+        },
+        {
+          "name": "boy",
+          "benefit": 0.5
+        }
+      ]
+    }
+  ]
+}
