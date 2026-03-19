@@ -1,0 +1,717 @@
+{
+  "metadata": {
+    "title": "The Hunger Games (film)",
+    "text": "Panem is a dystopian, post-apocalyptic nation divided into twelve districts ruled by the Capitol. As punishment for a failed rebellion 74 years earlier, each district must annually select two tributes, one boy and one girl between the ages of 12 to 18, to fight to the death in the Hunger Games until only one survivor remains. The event is televised nationwide.\n\nKatniss Everdeen lives in District 12 with her younger sister Primrose. When Primrose is selected for the 74th Hunger Games, Katniss volunteers to take her place. She and her fellow district tribute, Peeta Mellark, are escorted to the Capitol, accompanied by mentor Haymitch Abernathy, the only living victor from their district. Haymitch stresses the importance of gaining sponsors, as they can provide resources during the Games. During a televised interview, Peeta confesses he loves Katniss, which she initially sees as an attempt to attract sponsors; she later learns his feelings are genuine.\n\nWhen the Games start, half of the tributes are killed in the initial brawl for supplies around a central structure called the Cornucopia. Katniss flees into the forest, but the career tributes (volunteers from the wealthier Districts 1 and 2 who trained for years for the Games) \u2014 Marvel, Glimmer, Cato, and Clove \u2014 track her down; she climbs a tree in desperation. Peeta, seemingly allied with the Careers, suggests they wait her out. Hiding in the next tree, Rue, the District 11 girl, attracts Katniss's attention to a nest of poisonous tracker jackers (genetically modified wasps) above her; she cuts a branch, dropping the nest on the sleeping Careers. Glimmer is killed, but the others escape. Katniss retrieves Glimmer's bow and arrows, but is disoriented from tracker-jacker venom. Peeta returns, urging her to flee before escaping from the Careers.\n\nLater, Rue finds Katniss, helps her recover, and they become friends. Rue distracts the Careers while Katniss destroys a supplies stockpile with mines. Marvel finds and kills Rue before Katniss shoots him dead. She comforts Rue with song and, after Rue's death, decorates her body with flowers, sparking a riot in District 11.\n\nPanem president Coriolanus Snow is greatly displeased with how things are turning out \u2014 the Games are designed to dissipate dissent, not focus it \u2014 and warns Seneca Crane, who runs the Games, to \"be careful\". Haymitch persuades Crane to allow two victors if they are from the same district, suggesting it would appease the audience.\n\nKatniss finds Peeta severely wounded and takes him to a cave. When it is announced that what each survivor needs most will be provided at the Cornucopia, Katniss leaves to get medicine for him despite his protests. She is ambushed and pinned by Clove, who gloats about Rue's death. Before Clove can kill her, Thresh, District 11's male tribute, appears and kills Clove. He spares Katniss once for what she did for Rue. The medicine heals Peeta overnight.\n\nWhile hunting, Katniss hears a cannon blast signaling a death. She rushes to Peeta, who unknowingly collected deadly nightlock berries. They find the District 5 girl dead from eating the berries after secretly watching Peeta. With only four tributes remaining, Crane unleashes genetically engineered dog-like Mutts, which kill Thresh.\n\nKatniss, Peeta, and Cato, the last survivors, flee to the roof of the Cornucopia. Cato holds Peeta hostage until Katniss shoots his hand, enabling Peeta to push Cato down among the Mutts. Katniss then shoots Cato dead in a coup de gr\u00e2ce. Suddenly, Crane revokes the two-victor rule change. Peeta urges Katniss to shoot him, but she suggests they eat nightlock berries instead and deprive the Capitol of a winner. Just before they can, Hunger Games announcer Claudius Templesmith declares them co-victors.\n\nAfterward, Haymitch warns Katniss about the powerful enemies she has made. Snow has Crane locked in a room containing only nightlock berries.",
+    "ratedCharacters": [
+      "Coriolanus Snow",
+      "Katniss Everdeen",
+      "Effie Trinket",
+      "Haymitch Abernathy",
+      "Peeta Mellark",
+      "Gale Hawthorne"
+    ],
+    "annotator": "Nate Borland"
+  },
+  "actions": [
+    {
+      "description": "Primrose is chosen as tribute",
+      "action": "select",
+      "agents": [
+        {
+          "name": "Effie Trinket",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Primrose Everdeen",
+          "benefit": -1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss volunteers to take Primrose's place as tribute",
+      "action": "volunteer",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Primrose Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta is selected as tribute",
+      "action": "select",
+      "agents": [
+        {
+          "name": "Effie Trinket",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta and Katniss are escorted to the Capitol",
+      "action": "escort",
+      "agents": [
+        {
+          "name": "Haymitch Abernathy",
+          "benefit": 0.0
+        },
+        {
+          "name": "Effie Trinket",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 0.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 0.0
+        }
+      ]
+    },
+    {
+      "description": "Haymitch gives Peeta and Katniss advice",
+      "action": "advise",
+      "agents": [
+        {
+          "name": "Haymitch Abernathy",
+          "benefit": 0.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta publicly confesses his love for Katniss",
+      "action": "confess",
+      "agents": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "The hunger games begin with a fight, half of tributes are killed",
+      "action": "fight",
+      "agents": [
+        {
+          "name": "Marvel",
+          "benefit": 1.0
+        },
+        {
+          "name": "Glimmer",
+          "benefit": 1.0
+        },
+        {
+          "name": "Cato",
+          "benefit": 1.0
+        },
+        {
+          "name": "Clove",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Half of the tributes",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss flees the initial brawl",
+      "action": "flee",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": []
+    },
+    {
+      "description": "career tributes chase Katniss into a tree",
+      "action": "chase",
+      "agents": [
+        {
+          "name": "Marvel",
+          "benefit": 1.0
+        },
+        {
+          "name": "Glimmer",
+          "benefit": 1.0
+        },
+        {
+          "name": "Cato",
+          "benefit": 1.0
+        },
+        {
+          "name": "Clove",
+          "benefit": 1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta convinces the career tributes to wait Katniss out",
+      "action": "convince",
+      "agents": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Rue points out a nest of tracker jackers to Katniss",
+      "action": "point out",
+      "agents": [
+        {
+          "name": "Rue",
+          "benefit": 0.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss drops the tracker jacker nest onto the career tributes, killing Glimmer",
+      "action": "attack",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        },
+        {
+          "name": "Rue",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Glimmer",
+          "benefit": -1.0
+        },
+        {
+          "name": "Marvel",
+          "benefit": -1.0
+        },
+        {
+          "name": "Cato",
+          "benefit": -1.0
+        },
+        {
+          "name": "Clove",
+          "benefit": -1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta urges a disoriented Katniss to flee",
+      "action": "urge",
+      "agents": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 0.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Rue helps Katniss recover and they team up",
+      "action": "aid",
+      "agents": [
+        {
+          "name": "Rue",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Rue and Katniss team up to destroy a stockpile",
+      "action": "sabotage",
+      "agents": [
+        {
+          "name": "Rue",
+          "benefit": 1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Marvel",
+          "benefit": -1.0
+        },
+        {
+          "name": "Cato",
+          "benefit": -1.0
+        },
+        {
+          "name": "Clove",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Marvel finds and kills Rue",
+      "action": "kill",
+      "agents": [
+        {
+          "name": "Marvel",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Rue",
+          "benefit": -1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss kills Marvel",
+      "action": "kill",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Marvel",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss comforts a dying Rue",
+      "action": "comfort",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 0.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Rue",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "District 11 begins rioting",
+      "action": "riot",
+      "agents": [
+        {
+          "name": "District 11",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Coriolanus Snow",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Snow warns Seneca Crane to be careful",
+      "action": "caution",
+      "agents": [
+        {
+          "name": "Coriolanus Snow",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Seneca Crane",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Haymitch persuades Crane to allow two victors",
+      "action": "persuade",
+      "agents": [
+        {
+          "name": "Haymitch Abernathy",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss rescues Peeta",
+      "action": "rescue",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss goes for medicine but is ambushed by Clove",
+      "action": "ambush",
+      "agents": [
+        {
+          "name": "Clove",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Thresh kills Clove, saving Katniss",
+      "action": "kill",
+      "agents": [
+        {
+          "name": "Thresh",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Clove",
+          "benefit": -1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "The medicine heals Peeta",
+      "action": "heal",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss stops Peeta from eating nightlock",
+      "action": "save",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Crane unleashes Mutts, which kill Thresh",
+      "action": "unleash",
+      "agents": [
+        {
+          "name": "Seneca Crane",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Thresh",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss, Peeta, and Cato flee to high ground",
+      "action": "flee",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        },
+        {
+          "name": "Cato",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": []
+    },
+    {
+      "description": "Cato holds Peeta hostage",
+      "action": "hold hostage",
+      "agents": [
+        {
+          "name": "Cato",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": -1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss shoots Cato's hand",
+      "action": "shoot",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Cato",
+          "benefit": -1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Peeta pushes Cato to the Mutts",
+      "action": "push",
+      "agents": [
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Cato",
+          "benefit": -1.0
+        },
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss kills Cato",
+      "action": "kill",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Cato",
+          "benefit": -1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Crane revokes two victor rule",
+      "action": "revoke",
+      "agents": [
+        {
+          "name": "Seneca Crane",
+          "benefit": 1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": -1.0
+        }
+      ]
+    },
+    {
+      "description": "Katniss and Peeta decide to eat nightlock",
+      "action": "decide",
+      "agents": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": -1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": -1.0
+        }
+      ],
+      "othersAffected": []
+    },
+    {
+      "description": "Claudius Templesmith the announcer declares them co-victors",
+      "action": "declare winners",
+      "agents": [
+        {
+          "name": "Coriolanus Snow",
+          "benefit": -1.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        },
+        {
+          "name": "Peeta Mellark",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "Haymitch warns Katniss of powerful enemies",
+      "action": "warn",
+      "agents": [
+        {
+          "name": "Haymitch Abernathy",
+          "benefit": 0.0
+        }
+      ],
+      "othersAffected": [
+        {
+          "name": "Katniss Everdeen",
+          "benefit": 1.0
+        }
+      ]
+    },
+    {
+      "description": "",
+      "action": "",
+      "agents": [
+        {
+          "name": "",
+          "benefit": ""
+        }
+      ],
+      "othersAffected": []
+    }
+  ]
+}
