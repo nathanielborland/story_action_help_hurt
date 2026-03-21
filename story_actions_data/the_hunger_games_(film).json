@@ -22,7 +22,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Primrose Everdeen",
           "benefit": -1.0
@@ -42,7 +42,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Primrose Everdeen",
           "benefit": 1.0
@@ -58,7 +58,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": -1.0
@@ -78,7 +78,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 0.0
@@ -98,7 +98,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": 1.0
@@ -118,7 +118,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -146,7 +146,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Half of the tributes",
           "benefit": -1.0
@@ -162,7 +162,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "career tributes chase Katniss into a tree",
@@ -189,7 +189,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": -1.0
@@ -205,7 +205,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -221,7 +221,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -241,7 +241,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Glimmer",
           "benefit": -1.0
@@ -273,7 +273,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -289,7 +289,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -309,7 +309,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Marvel",
           "benefit": -1.0
@@ -333,7 +333,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Rue",
           "benefit": -1.0
@@ -353,7 +353,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Marvel",
           "benefit": -1.0
@@ -369,7 +369,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Rue",
           "benefit": 1.0
@@ -385,7 +385,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Coriolanus Snow",
           "benefit": -1.0
@@ -401,7 +401,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Seneca Crane",
           "benefit": -1.0
@@ -417,7 +417,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": 1.0
@@ -437,7 +437,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": 1.0
@@ -453,7 +453,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": -1.0
@@ -469,7 +469,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Clove",
           "benefit": -1.0
@@ -493,7 +493,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": 1.0
@@ -509,7 +509,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": 1.0
@@ -525,7 +525,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Thresh",
           "benefit": -1.0
@@ -549,7 +549,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Cato holds Peeta hostage",
@@ -560,7 +560,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Peeta Mellark",
           "benefit": -1.0
@@ -580,7 +580,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Cato",
           "benefit": -1.0
@@ -600,7 +600,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Cato",
           "benefit": -1.0
@@ -620,7 +620,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Cato",
           "benefit": -1.0
@@ -640,7 +640,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": -1.0
@@ -664,7 +664,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Claudius Templesmith the announcer declares them co-victors",
@@ -675,7 +675,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -695,7 +695,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Katniss Everdeen",
           "benefit": 1.0
@@ -711,7 +711,7 @@
           "benefit": ""
         }
       ],
-      "othersAffected": []
+      "others": []
     }
   ]
 }

@@ -105,7 +105,7 @@ class Annotator:
         self.next_btn.grid(row=1, column=3)
         self.save_btn.grid(row=6, column=3)
 
-        new_action = {'description': '', 'action': '', 'agents': [{'name': '', 'benefit': ''}], 'othersAffected': []}
+        new_action = {'description': '', 'action': '', 'agents': [{'name': '', 'benefit': ''}], 'others': []}
         self.actions.append(new_action)
         self.load_action(self.current_index)
 
@@ -181,7 +181,7 @@ class Annotator:
             'description': desc,
             'action': act,
             'agents': agents,
-            'othersAffected': others
+            'others': others
         }
         
         for agent in agents:
@@ -214,7 +214,7 @@ class Annotator:
             last['benefit'].insert(0, str(agent['benefit']))
 
         # Add frames for others
-        for other in action['othersAffected']:
+        for other in action['others']:
             self._add_person_frame(self.others_frame, self.other_frames)
             last = self.other_frames[-1]
             last['name'].insert(0, other['name'])
@@ -238,7 +238,7 @@ class Annotator:
         self.current_index += 1
         if self.current_index == len(self.actions):
             # Add new action
-            new_action = {'description': '', 'action': '', 'agents': [{'name': '', 'benefit': ''}], 'othersAffected': []}
+            new_action = {'description': '', 'action': '', 'agents': [{'name': '', 'benefit': ''}], 'others': []}
             self.actions.append(new_action)
 
         self.load_action(self.current_index)

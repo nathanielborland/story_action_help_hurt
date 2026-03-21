@@ -6,11 +6,11 @@ def get_episode_summaries(filepath:str) -> list[str]:
         raw_html = f.read()
     soup = BeautifulSoup(raw_html, 'html.parser')
 
-    summary_divs = soup.find_all('div', attrs={'class': 'shortSummaryText'}, recursive=True)
+    episode_summary_divs = soup.find_all('div', attrs={'class': 'shortSummaryText'}, recursive=True)
     summaries = []
-    for div in summary_divs:
+    for episode in episode_summary_divs:
         summary = ''
-        for content in div.contents:
+        for content in episode.contents:
             if isinstance(content, element.Tag):
                 if content.name == 'table' or content.name == 'style' or content.name == 'link':
                     continue
@@ -38,10 +38,10 @@ def get_plot_summary(filepath:str) -> str:
             cur_tag = cur_tag.find_next_sibling()
     return summary
 
-# all_summaries = get_episode_summaries('wiki_html/List of The 100 episodes - Wikipedia.html')
-# for single_summary in all_summaries:
+# episode_summaries = get_episode_summaries('wiki_html/List of The 100 episodes - Wikipedia.html')
+# for episode_summary in episode_summaries:
 #     input()
-#     print(single_summary)
+#     print(episode_summary)
 
 # movie_summary = get_plot_summary('wiki_html/Aladdin (1992 Disney film) - Wikipedia.html')
 # print(movie_summary)

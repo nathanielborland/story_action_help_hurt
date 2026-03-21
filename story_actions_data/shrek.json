@@ -19,7 +19,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "townsfolk",
           "benefit": -1.0
@@ -35,7 +35,7 @@
           "benefit": 0.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": 1.0
@@ -55,7 +55,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -71,7 +71,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": -1.0
@@ -91,7 +91,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -111,7 +111,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Magic Mirror tells Farquaad that he must marry a princess",
@@ -122,7 +122,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Lord Farquaad",
           "benefit": 1.0
@@ -138,7 +138,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "knights",
           "benefit": -1.0
@@ -154,7 +154,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -178,7 +178,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "knights",
           "benefit": -1.0
@@ -198,7 +198,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": 1.0
@@ -218,7 +218,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Dragon attacks Shrek and Donkey",
@@ -229,7 +229,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -249,7 +249,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Princess Fiona",
           "benefit": 1.0
@@ -269,7 +269,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": 1.0
@@ -285,7 +285,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": 1.0
@@ -305,7 +305,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Princess Fiona",
           "benefit": -1.0
@@ -321,7 +321,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Princess Fiona",
           "benefit": -1.0
@@ -337,7 +337,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": 1.0
@@ -357,7 +357,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -381,7 +381,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Robin Hood",
           "benefit": -1.0
@@ -401,7 +401,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Fiona is forced to reveal her ogre curse to Donkey, Shrek overhears",
@@ -412,7 +412,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": 1.0
@@ -432,7 +432,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Princess Fiona",
           "benefit": -1.0
@@ -452,7 +452,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Lord Farquaad",
           "benefit": 1.0
@@ -472,7 +472,7 @@
           "benefit": -1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Donkey",
           "benefit": -1.0
@@ -488,7 +488,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": 1.0
@@ -512,7 +512,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "Shrek interrupts Fiona and Farquaad wedding",
@@ -523,7 +523,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Princess Fiona",
           "benefit": 1.0
@@ -543,7 +543,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": 1.0
@@ -563,7 +563,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": -1.0
@@ -583,7 +583,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": [
+      "others": [
         {
           "name": "Shrek",
           "benefit": 1.0
@@ -611,7 +611,7 @@
           "benefit": 1.0
         }
       ],
-      "othersAffected": []
+      "others": []
     },
     {
       "description": "",
@@ -622,7 +622,7 @@
           "benefit": ""
         }
       ],
-      "othersAffected": []
+      "others": []
     }
   ]
 }
