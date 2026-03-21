@@ -271,7 +271,11 @@ class Annotator:
         if not self.actions:
             messagebox.showerror("Error", "At least one action is required.")
             return
-
+        
+        # remove last element if empty
+        if len(self.actions[-1]['agents']) == 1 and self.actions[-1]['agents'][0]['name'] == '':
+            self.actions.pop()
+        
         data = {
             'metadata': {
                 'title': self.story_title,

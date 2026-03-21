@@ -701,17 +701,6 @@
           "benefit": 1.0
         }
       ]
-    },
-    {
-      "description": "",
-      "action": "",
-      "agents": [
-        {
-          "name": "",
-          "benefit": ""
-        }
-      ],
-      "others": []
     }
   ]
 }
